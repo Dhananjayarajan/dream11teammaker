@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dream11 Team Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Dream11 Team Generator</h1>
+
+  <div class="input-section">
+    <div class="team-input">
+      <h2>Home Team</h2>
+      <textarea id="homeBatters" placeholder="Enter batters in order from 1 to 7(comma-separated)"></textarea>
+      <textarea id="homeBowlers" placeholder="Enter bowlers in order from 1 to 5(comma-separated)"></textarea>
+    </div>
+    <div class="team-input">
+      <h2>Away Team</h2>
+      <textarea id="awayBatters" placeholder="Enter batters in order from 1 to 7(comma-separated)"></textarea>
+    
+      <textarea id="awayBowlers" placeholder="Enter bowlers in order from 1 to 5(comma-separated)"></textarea>
+     
+    </div>
+  </div>
+
+  <button id="generateBtn">Generate Teams</button>
+  <button id="clearAllBtn">Clear All</button>
+
+  <div id="output"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
